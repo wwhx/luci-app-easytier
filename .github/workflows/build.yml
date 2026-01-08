@@ -28,10 +28,10 @@ jobs:
       fail-fast: false
       matrix:
         arch:
-          - mips_24kc
+          - aarch64_cortex-a53
           
         sdk:
-          - 21.02.4
+          - 22.03.7
 
     steps:
       - uses: actions/checkout@v5
