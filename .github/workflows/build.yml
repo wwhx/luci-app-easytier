@@ -28,7 +28,7 @@ jobs:
       fail-fast: false
       matrix:
         arch:
-          - aarch64_cortex-a53
+          - aarch64_generic
           
         sdk:
           - 21.02.4
