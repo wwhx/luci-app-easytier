@@ -28,10 +28,10 @@ jobs:
       fail-fast: false
       matrix:
         arch:
-          - x86_64
+          - aarch64_cortex-a53
           
         sdk:
-          - 22.03.7
+          - 21.02.4
 
     steps:
       - uses: actions/checkout@v5
@@ -110,4 +110,3 @@ jobs:
             tag_name: ${{ env.TAG }}
             files: release/*.zip
  
-
